@@ -1,0 +1,171 @@
+.textos{
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 18px;
+}
+.textos-titulo{
+    font-size: 20px;
+    background-color: rgba(70, 111, 245, 0.87);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+.textos-parrafo{
+    text-align: justify;
+    padding-left: 15px;
+    margin: 15px 0;
+}
+.contenedorImgs{
+    display: flex;
+    width: 50%; 
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorIndividual{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 3px solid rgba(70, 111, 245, 0.87);
+    border-radius: 50%;
+}
+.contenedorTexto{
+    text-align: center;
+    margin: 5px 0;
+    font-size: 25px;
+}
+.contenedorImagen{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+.preguntas{
+    background-color: rgba(228, 245, 70, 0.87);
+    width: 200px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid rgba(66, 228, 60, 0.87);
+    background: none;
+    box-shadow: 3px 3px rgba(66, 228, 60, 0.87);
+    font-size: 25px;
+    cursor: pointer;
+    outline:none;
+    margin: 15px;
+}
+.btn:hover{
+    background:rgba(70, 111, 245, 0.87) ;
+    border: 2px solid rgba(70, 111, 245, 0.87);
+    box-shadow: 3px 3px rgba(70, 111, 245, 0.87);
+}
+.Signo{
+    font-size: 100px;
+}
+.letra{
+    font-family: 'Courgette', cursive;
+}
+.contenedorLetra{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+.amarillo{
+    color:rgb(222, 233, 0);
+}
+.azul{
+    color: rgb(0, 0, 255);
+}
+.rojo{
+    color:rgb(255, 0, 0);
+}
+.naranja{
+    color: rgb(255, 125, 0);
+}
+.violeta{
+    color: rgb(120, 40, 140);
+}
+.a{
+    text-decoration: underline;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.plano{
+    border: 3px solid rgba(70, 111, 245, 0.87);
+    border-radius: 5px;
+}
+.centrarTexto{
+    text-align: center;
+}
+.contenedorLineal{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.Lineal{
+    width: 50px;
+    height: 50px;
+}
+.largo{
+    background: rgb(255, 233, 0);
+    width: 380px;
+}
+.formula{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    margin: 0 auto;
+    border: 3px solid rgba(70, 111, 245, 0.87);
+    border-radius: 25px;
+}
+.mayorTamaño{
+    font-size: 25px;
+    line-height: 50px;
+}
+table{
+    border: 3px solid rgba(70, 111, 245, 0.87);
+    font-size: 25px;
+}
+tr,th,td{
+    padding: 15px 40px;
+    text-align: center;
+    border: 1px solid rgba(70, 111, 245, 0.87);
+}
+.bold{
+    font-weight: bold;
+}
+.tabla{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.contenedorTablaGrafica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.canvas{
+    display: flex;
+    justify-content: center;
+}
+.geogebra{
+    margin: 0 auto;
+}

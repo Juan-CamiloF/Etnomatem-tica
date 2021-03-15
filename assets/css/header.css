@@ -1,0 +1,23 @@
+.nav{
+    padding: 15px;
+    display: flex;
+    background: rgba(98, 237, 255, 0.747);
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    margin: 25px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+    padding: 5px;
+}
+.barra{
+    width: 600px;
+    height: 5px;
+    background: rgb(4, 185, 64);
+    margin: 0 auto;
+    border-radius: 5px;
+}

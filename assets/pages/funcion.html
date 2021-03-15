@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etnomatemática</title>
+    <link rel="shortcut icon" href="../img/logo_white.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c2dc5e4e4b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/generales.css" />
+    <link rel="stylesheet" href="../css/funcion.css " />
+    <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="../img/Konrad_Lorenz.png" alt="Konrad_Lorenz" />
+            <h3>Fundación Universitaria Konrad Lorenz</h3>
+        </nav>
+        <a href="../../index.html">
+            <div class="volver">
+                <i class="fas fa-undo-alt"></i>
+                <p>Volver</p>
+            </div>
+        </a>
+        <h1 class="titulo">Función</h1>
+        <div class="barra"></div>
+    </header>
+    <main class="main">
+        <section class="textos">
+            <p class="textos-parrafo">
+                Para entender que es una función, retomaremos los conjuntos que se vio
+                en la sección de relación, luego diremos que es función si a cada
+                elemento del conjunto A, llamado Dominio le corresponde un solo valor
+                del conjunto B, llamado Rango. Por ejemplo:
+            </p>
+            <p class="textos-parrafo">1</p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <img class="contenedorImagen" src="../img/funcion/fruta1.png" alt="manzana" />
+                        <img class="contenedorImagen" src="../img/funcion/fruta3.png" alt="manzana" />
+                        <img class="contenedorImagen" src="../img/funcion/fruta2.png" alt="manzana" />
+                    </div>
+                </div>
+                <canvas id="linea6" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <img class="contenedorImagen" src="../img/relacion/Imagen1.png" alt="imagen1" />
+                        <img class="contenedorImagen" src="../img/relacion/Imagen2.png" alt="imagen2" />
+                        <img class="contenedorImagen" src="../img/relacion/Imagen3.png" alt="imagen3" />
+                    </div>
+                </div>
+            </div>
+            <p class="textos-parrafo">2</p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <img class="contenedorImagen" src="../img/funcion/paleta1.png" alt="paleta" />
+                        <img class="contenedorImagen" src="../img/funcion/paleta3.png" alt="paleta" />
+                        <img class="contenedorImagen" src="../img/funcion/paleta2.png" alt="paleta" />
+                    </div>
+                </div>
+                <canvas id="linea7" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <img class="contenedorImagen" src="../img/relacion/Imagen1.png" alt="imagen1" />
+                        <img class="contenedorImagen" src="../img/relacion/Imagen2.png" alt="imagen2" />
+                        <img class="contenedorImagen" src="../img/relacion/Imagen3.png" alt="imagen3" />
+                    </div>
+                </div>
+            </div>
+            <p class="textos-parrafo">3</p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <img class="contenedorImagen" src="../img/funcion/estambre1.png" alt="estambre" />
+                        <img class="contenedorImagen" src="../img/funcion/estambre3.png" alt="estambre" />
+                        <img class="contenedorImagen" src="../img/funcion/estambre2.png" alt="estambre" />
+                    </div>
+                </div>
+                <canvas id="linea8" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <img class="contenedorImagen" src="../img/funcion/gato1.png" alt="gatos" />
+                        <img class="contenedorImagen" src="../img/funcion/gato2.png" alt="gatos" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="textos ejercicios">
+            <h3 class="textos-titulo preguntas">Hora de practicar</h3>
+            <p class="textos-parrafo">
+                Indica si las siguientes relaciones definen una función o no definen
+                una función.
+            </p>
+            <p class="textos-parrafo">1</p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo letra amarillo">a</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra azul">i</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra rojo">u</p>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="linea9" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo amarillo">1</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo amarillo">7</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo azul">9</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo rojo">5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="botones">
+                <button id="pregunta5.1" class="btn">Es Función</button>
+                <button id="pregunta5.2" class="btn">NO es función</button>
+            </div>
+            <p class="textos-parrafo">2</p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo letra amarillo">a</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra azul">i</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra rojo">u</p>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="linea10" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo">1</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo">7</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo naranja">9</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo">5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="botones">
+                <button id="pregunta6.1" class="btn">Es Función</button>
+                <button id="pregunta6.2" class="btn">NO es función</button>
+            </div>
+            <p class="textos-parrafo">3</p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo letra amarillo">a</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra azul">i</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra rojo">u</p>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="linea11" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo amarillo">1</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo amarillo">7</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo amarillo">9</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo violeta">5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="botones">
+                <button id="pregunta7.1" class="btn">Es Función</button>
+                <button id="pregunta7.2" class="btn">NO es función</button>
+            </div>
+            <p class="textos-parrafo">4</p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo letra amarillo">a</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra a">i</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra rojo">u</p>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="linea12" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo amarillo">1</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo">7</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo">9</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo rojo">5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="botones">
+                <button id="pregunta8.1" class="btn">Es Función</button>
+                <button id="pregunta8.2" class="btn">NO es función</button>
+            </div>
+        </section>
+        <section class="textos">
+            <h3 class="textos-titulo bgAzul">Plano Cartesiano</h3>
+            <p class="textos-parrafo">
+                Es un mapa conformado por dos rectas numéricas, las cuales se conocen
+                como ejes, estos se cortan en el punto (0,0).
+            </p>
+            <div class="contenedor">
+                <img class="plano" src="../img/funcion/plano.png" alt="plano" />
+            </div>
+            <p class="textos-parrafo">
+                Sea A el conjunto A = {5,6,7} y B el conjunto B = {1,2,3}
+            </p>
+            <div class="contenedorImgs">
+                <div>
+                    <p class="contenedorTexto">A</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo letra amarillo">5</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra azul">6</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo letra rojo">7</p>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="linea13" width="202" height="400"></canvas>
+                <div>
+                    <p class="contenedorTexto">B</p>
+                    <div class="contenedorIndividual">
+                        <div class="contenedorLetra">
+                            <p class="Signo amarillo">1</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo azul">2</p>
+                        </div>
+                        <div class="contenedorLetra">
+                            <p class="Signo rojo">3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="textos-parrafo">
+                Recordemos que una relación se escribe de dos en dos, de la siguiente
+                manera:
+            </p>
+            <h3 class="centrarTexto">R = {(5,1); (6,2); (7,3)}</h3>
+            <p class="textos-parrafo">
+                Esto lo podemos representar gráficamente en el plano cartesiano.
+            </p>
+            <br>
+            <p class="textos-parrafo">La gráfica que le corresponde a la relación es:</p>
+            <div class="contenedor">
+                <img class="plano" src="../img/funcion/grafica.png" alt="grafica" />
+            </div>
+        </section>
+        <section class="textos">
+            <h3 class="textos-titulo bgAzul">Función Lineal</h3>
+            <p class="textos-parrafo">
+                Cuando hablamos de función lineal podemos pensar en rectas como por ejemplo:
+            </p>
+            <div class="contenedorLineal">
+                <img class="plano" src="../img/funcion/lineal1.png" alt="grafica" />
+                <img class="plano" src="../img/funcion/lineal2.png" alt="grafica" />
+            </div>
+            <h3 class="textos-titulo preguntas">Hora de practicar</h3>
+            <p class="textos-parrafo">
+                Indique cuál de los siguientes gráficos <span class="a">NO</span> es función lineal
+            </p>
+            <div class="contenedorLineal">
+                <div>
+                    <button id="pregunta9.1" class="btn Lineal">A</button>
+                    <img class="plano" src="../img/funcion/linealP1.png" alt="grafica" />
+                </div>
+                <div>
+                    <button id="pregunta9.2" class="btn Lineal">B</button>
+                    <img class="plano" src="../img/funcion/linealP2.png" alt="grafica" />
+                </div>
+                <div>
+                    <button id="pregunta9.3" class="btn Lineal">C</button>
+                    <img class="plano" src="../img/funcion/linealP3.png" alt="grafica" />
+                </div>
+            </div>
+        </section>
+        <section class="textos">
+            <h3 class="textos-titulo largo">¿Qué compone a la función lineal?</h3>
+            <h3 class="centrarTexto formula">y=mx+b</h3>
+            <ul>
+                <li>m = pendiente</li>
+                <li>b = corte con el eje Y</li>
+                <li>x = variable independiente</li>
+                <li>y = variable dependiente</li>
+            </ul>
+            <p class="textos-parrafo">Por ejemplo:</p>
+            <h3 class="centrarTexto mayorTamaño"> <span class="azul">y</span> = 2<span class="rojo">x</span> + b</h3>
+            <p class="textos-parrafo">Para esto vamos a realizar una tabla, en donde miramos cuando la variable x toma
+                algún valor, como se comporta la variable <span class="azul">y</span>.
+            </p>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th class="rojo">x</th>
+                        <th class="azul">y</th>
+                    </tr>
+                    <tr>
+                        <td class="bold a">-1</td>
+                        <td class="azul">1</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <p class="textos-parrafo mayorTamaño">
+                    <span class="azul">y</span> = 2<span class="rojo">x</span>+3 <br>
+                    <span class="azul">y</span> = 2<span class="rojo">(-1)</span>+3 <br>
+                    <span class="azul">y</span> = -2+3 <br>
+                    <span class="azul">y = 1</span>
+                </p>
+            </div>
+            <p class="textos-parrafo">Ahora siguiendo la tabla</p>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th class="rojo">x</th>
+                        <th class="azul">y</th>
+                    </tr>
+                    <tr>
+                        <td>-1</td>
+                        <td class="azul">1</td>
+                    </tr>
+                    <tr>
+                        <td class="bold a">0</td>
+                        <td class="azul">3</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <p class="textos-parrafo mayorTamaño">
+                    <span class="azul">y</span> = 2<span class="rojo">x</span>+3 <br>
+                    <span class="azul">y</span> = 2<span class="rojo">(0)</span>+3 <br>
+                    <span class="azul">y</span> = 0+3 <br>
+                    <span class="azul">y = 3</span>
+                </p>
+            </div>
+            <p class="textos-parrafo">Y por último</p>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th class="rojo">x</th>
+                        <th class="azul">y</th>
+                    </tr>
+                    <tr>
+                        <td>-1</td>
+                        <td class="azul">1</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td class="azul">3</td>
+                    </tr>
+                    <tr>
+                        <td class="bold a">1</td>
+                        <td class="azul">5</td>
+                    </tr>
+                </table>
+                <p class="textos-parrafo mayorTamaño">
+                    <span class="azul">y</span> = 2<span class="rojo">x</span>+3 <br>
+                    <span class="azul">y</span> = 2<span class="rojo">(1)</span>+3 <br>
+                    <span class="azul">y</span> = 2+3 <br>
+                    <span class="azul">y = 5</span>
+                </p>
+            </div>
+            <p class="textos-parrafo">
+                Una vez tenemos la tabla podemos realizar la representación gráfica, como por ejemplo:
+            </p>
+            <div class="contenedorTablaGrafica">
+                <div>
+                    <table>
+                        <tr>
+                            <th class="rojo">x</th>
+                            <th class="azul">y</th>
+                        </tr>
+                        <tr>
+                            <td>-1</td>
+                            <td class="azul">1</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td class="azul">3</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="azul">5</td>
+                        </tr>
+                    </table>
+                </div>
+                <canvas id="linea14" width="100" height="50"></canvas>
+                <div class="grafica">
+                    <p>1. Ubicamos los puntos de la tabla en el plano cartesiano.
+                    </p>
+                    <img class="plano" src="../img/funcion/tablaGrafica1.png" alt="">
+                </div>
+            </div>
+            <p class="textos-parrafo">Entonces</p>
+            <div class="contenedorTablaGrafica">
+                <div>
+                    <table>
+                        <tr>
+                            <th class="rojo">x</th>
+                            <th class="azul">y</th>
+                        </tr>
+                        <tr>
+                            <td>-1</td>
+                            <td class="azul">1</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td class="azul">3</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="azul">5</td>
+                        </tr>
+                    </table>
+                </div>
+                <canvas id="linea15" width="100" height="50"></canvas>
+                <div class="grafica">
+                    2. Trazamos una recta uniendo los puntos.
+                    </p>
+                    <img class="plano" src="../img/funcion/tablaGrafica2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="textos">
+            <h3 class="textos-titulo largo">¿Qué es la pendiente?</h3>
+            <p class="textos-parrafo">
+                Es la inclinación de la recta con respecto al eje x
+            </p>
+            <div class="contenedorLineal">
+                <div>
+                    <p class="textos-parrafo">Creciente</p>
+                    <img class="plano" src="../img/funcion/pendiente1.png" alt="grafica" />
+                </div>
+                <div>
+                    <p class="textos-parrafo">Decreciente</p>
+                    <img class="plano" src="../img/funcion/pendiente2.png" alt="grafica" />
+                </div>
+            </div>
+            <p class="textos-parrafo">Retomando el ejemplo anterior tenemos que:</p>
+            <h3 class="centrarTexto mayorTamaño"> <span class="azul">y</span> = <span class="naranja">2</span><span
+                    class="rojo">x</span> + 3</h3>
+            <div class="canvas">
+                <canvas class="centrar" id="linea16" width="50" height="50"></canvas>
+            </div>
+            <h3 class="centrarTexto mayorTamaño"> <span class="azul">y</span> = <span class="naranja">m</span><span
+                    class="rojo">x</span> + b</h3>
+            Recordemos que la ecuación nos indica que <span class="naranja">m</span> es la pendiente, de manera que en
+            la ecuación: <span class="azul">y</span> = <span class="naranja">2</span><span class="rojo">x</span> + b, la
+            pendiente es 2, es decir:
+            <h3 class="centrarTexto mayorTamaño naranja">m = 2</h3>
+        </section>
+        <section class="textos">
+            <h3 class="textos-titulo largo">¿Qué es la intersección con el eje Y?</h3>
+            <p class="textos-parrafo">
+                Es el punto en donde la recta corta con el eje y.
+            </p>
+            <div class="contenedorLineal">
+                <img class="plano" src="../img/funcion/interseccion1.png" alt="">
+                <img class="plano" src="../img/funcion/interseccion2.png" alt="">
+            </div>
+            <p class="textos-parrafo">Retomando el ejemplo anterior tenemos que:</p>
+            <h3 class="centrarTexto mayorTamaño"> <span class="azul">y</span> = 2<span class="rojo">x</span> + <span
+                    class="violeta">3</span> </h3>
+            <div class="canvas">
+                <canvas class="centrar" id="linea17" width="50" height="50"></canvas>
+            </div>
+            <h3 class="centrarTexto mayorTamaño"> <span class="azul">y</span> = m<span class="rojo">x</span> + <span
+                    class="violeta">b</span></h3>
+            <p class="textos-parrafo">Recordemos que la ecuación nos indica que <span class="violeta">b</span> es el
+                corte con el eje <span class="azul">y</span>, de manera que en la ecuación: <span class="azul">y</span>
+                = <span class="naranja">2</span><span class="rojo">x</span> + <span class="violeta">b</span>, el corte
+                con el eje <span class="azul">y</span> es <span class="violeta">3</span>, es decir:
+            </p>
+            <h3 class="centrarTexto mayorTamaño violeta">b = 3</h3>
+        </section>
+        <section class="textos">
+            <h3 class="textos-titulo preguntas">Hora de practicar</h3>
+            <div class="geogebra" id="ggbApplet"></div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../scripts/canvas.js"></script>
+    <script src="../scripts/preguntasFuncion.js"></script>
+    <script src="../scripts/geogebra.js"></script>
+</body>
+
+</html>
