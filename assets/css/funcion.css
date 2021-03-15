@@ -18,6 +18,16 @@
     padding-left: 15px;
     margin: 15px 0;
 }
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img{
+    width: 250px;
+    margin: 15px;
+    border-radius: 15px;
+}
 .contenedorImgs{
     display: flex;
     width: 50%; 
@@ -166,6 +176,29 @@ tr,th,td{
     display: flex;
     justify-content: center;
 }
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.contenedorA{
+   display: flex;
+   justify-content: center;
+}
+.item{
+    background: rgba(70, 111, 245, 0.87);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item:hover{
+    opacity: 0.5;
+}
 .geogebra{
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
 }
